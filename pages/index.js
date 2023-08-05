@@ -36,7 +36,9 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            lorem ipsum
+            AI융합소프트웨어학과 / 김우빈
+            <br/>
+            Chobby
           </motion.p>
           {/* 버튼 */}
           <div className="flex justify-center xl:hidden relative">
