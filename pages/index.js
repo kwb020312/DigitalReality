@@ -26,7 +26,7 @@ const Home = () => {
             className="h1"
           >
             넘쳐나는 아이디어 <br /> 꾸준한
-            <span className="text-accent">개발 및 배포</span>
+            <span className="text-accent"> 개발 및 배포</span>
           </motion.h1>
           {/* 부제목 */}
           <motion.p
@@ -59,7 +59,7 @@ const Home = () => {
         <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0">
           Image
         </div>
-        {/* 파티클 */}
+        {/* 세포 */}
         <ParticlesContainer />
         <motion.div
           variants={fadeIn("up", 0.5)}
