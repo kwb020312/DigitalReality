@@ -13,7 +13,7 @@ export const links = [
   { name: "나의 활동", path: "/services", icon: <HiRectangleGroup /> },
   { name: "내 프로젝트", path: "/work", icon: <HiViewColumns /> },
   {
-    name: "호칭",
+    name: "댓글",
     path: "/testimonials",
     icon: <HiChatBubbleBottomCenterText />,
   },

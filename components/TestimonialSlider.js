@@ -11,24 +11,23 @@ import { FaQuoteLeft } from "react-icons/fa";
 const testimonialData = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
-    message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+    name: "1yoouoo",
+    position: "velog 알고리즘 풀이",
+    message: "개발자로서 성장하는 데 큰 도움이 된 글이었습니다. 감사합니다.",
   },
   {
-    image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    image: "/kimsojeong01.png",
+    name: "kimsojeong01",
+    position: "velog 알고리즘 풀이",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "와.. 정말 멋지세요 이거보고 수학공부를 해야겠다는.. 다짐을 하게된것같아요...",
   },
   {
-    image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    image: "/xoxojw.jpg",
+    name: "xoxojw",
+    position: "velog 알고리즘 풀이",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "안녕하세요 JS로 프로그래머스 문제 풀면서 모르는 거 나올 때마다 쵸비님 벨로그 많이봐서 혼자만의 내적 친밀감이 생긴 1인입니다",
   },
 ];
 
