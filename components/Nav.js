@@ -10,8 +10,8 @@ import {
 export const links = [
   { name: "홈", path: "/", icon: <HiHome /> },
   { name: "프로필", path: "/about", icon: <HiUser /> },
-  { name: "경력", path: "/services", icon: <HiRectangleGroup /> },
-  { name: "작업", path: "/work", icon: <HiViewColumns /> },
+  { name: "나의 활동", path: "/services", icon: <HiRectangleGroup /> },
+  { name: "내 프로젝트", path: "/work", icon: <HiViewColumns /> },
   {
     name: "호칭",
     path: "/testimonials",

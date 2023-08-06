@@ -1,42 +1,5 @@
-import {
-  RxCrop,
-  RxPencil2,
-  RxDesktop,
-  RxReader,
-  RxRocket,
-} from "react-icons/rx";
-
-const serviceData = [
-  {
-    icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxRocket />,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-];
-
 // 컴포넌트
 import WorkSlider from "../../components/WorkSlider";
-import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
 
 import { motion } from "framer-motion";
@@ -55,9 +18,9 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit="hidden"
-              className="h2 xl:mt-12"
+              className="h2 xl:mt-12 mt-20"
             >
-              My work <span className="text-accent">.</span>
+              내 프로젝트 <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -66,7 +29,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem
+              계획했던 프로젝트를 정확하게 구현하고 배포
             </motion.p>
           </div>
           {/* slider */}

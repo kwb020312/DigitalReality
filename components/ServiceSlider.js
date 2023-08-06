@@ -18,28 +18,31 @@ import { FreeMode, Pagination } from "swiper";
 const serviceData = [
   {
     icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "서칭",
+    description:
+      "원하는 검색 결과를 조회하고, 빠른 시간 내에 결과물을 산출하는 능력",
   },
   {
     icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "디자인",
+    description:
+      "애니메이션, UI 구성 및 다양한 효과를 동적으로 활용할 수 있는 능력",
   },
   {
     icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "개발",
+    description: "알고리즘의 효율성을 생각하여 최적의 방안을 통한 개발 능력",
   },
   {
     icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "문서화",
+    description:
+      "나의 기술을 정리하고, 문제를 해결한 후기를 기록해 복습하는 능력",
   },
   {
     icon: <RxRocket />,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "프로젝트를 완료한 후, 배포하고 SEO를 최적화하는 능력",
   },
 ];
 

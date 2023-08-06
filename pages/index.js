@@ -37,7 +37,7 @@ const Home = () => {
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             AI융합소프트웨어학과 / 김우빈
-            <br/>
+            <br />
             Chobby
           </motion.p>
           {/* 버튼 */}
@@ -58,9 +58,7 @@ const Home = () => {
       {/* image */}
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
         {/* 백그라운드 이미지 */}
-        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0">
-          Image
-        </div>
+        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
         {/* 세포 */}
         <ParticlesContainer />
         <motion.div

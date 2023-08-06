@@ -1,41 +1,4 @@
-import {
-  RxCrop,
-  RxPencil2,
-  RxDesktop,
-  RxReader,
-  RxRocket,
-} from "react-icons/rx";
-
-const serviceData = [
-  {
-    icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxRocket />,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-];
-
 import ServiceSlider from "../../components/ServiceSlider";
-import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
 
 import { motion } from "framer-motion";
@@ -56,7 +19,7 @@ const Services = () => {
               exit="hidden"
               className="h2 xl:mt-8"
             >
-              My Services <span className="text-accent">.</span>
+              나의 활동 <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -65,7 +28,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem
+              점점 더 깊은 수준의 전문 분야로
             </motion.p>
           </div>
           {/* slider */}
