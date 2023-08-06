@@ -18,7 +18,7 @@ export const links = [
     icon: <HiChatBubbleBottomCenterText />,
   },
   {
-    name: "연락처",
+    name: "메일쓰기",
     path: "/contact",
     icon: <HiEnvelope />,
   },
