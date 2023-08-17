@@ -4,13 +4,13 @@ import {RiYoutubeLine, RiInstagramLine, RiFacebookLine, RiDribbbleLine, RiBehanc
 
 const Socials = () => {
   return <div className="flex items-center gap-x-5 text-lg">
-    <Link href={''} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://www.youtube.com/channel/UCN_8EpWS7bYSfKmb4-oBUfQ'} className="hover:text-accent transition-all duration-300">
       <RiYoutubeLine />
     </Link>
-    <Link href={''} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://www.facebook.com/profile.php?id=100009366848919'} className="hover:text-accent transition-all duration-300">
       <RiFacebookLine />
     </Link>
-    <Link href={''} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://www.instagram.com/chob_0312/'} className="hover:text-accent transition-all duration-300">
       <RiInstagramLine />
     </Link>
     <Link href={''} className="hover:text-accent transition-all duration-300">
